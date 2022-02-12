@@ -56,15 +56,15 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text(
                 'Test your\nreaction speed',
                 style: TextStyle(
-                    fontSize: 40,
-                    fontWeight: FontWeight.w800,
-                    color: Colors.black),
+                    fontSize: 38,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
                 textAlign: TextAlign.center,
               )),
           Align(
               alignment: Alignment.center,
               child: ColoredBox(
-                color: Colors.black12,
+                color: Color(0xFF6D6D6D),
                 child: SizedBox(
                   width: 300,
                   height: 160,
@@ -72,9 +72,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text(
                       milisecondText,
                       style: TextStyle(
-                          fontSize: 40,
-                          fontWeight: FontWeight.w800,
-                          color: Colors.black),
+                          fontSize: 36,
+                          fontWeight: FontWeight.normal,
+                          color: Colors.white),
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -109,9 +109,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Text(
                         _getButtonText(),
                         style: TextStyle(
-                            fontSize: 35,
-                            fontWeight: FontWeight.w800,
-                            color: Colors.black),
+                            fontSize: 38,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
                       ),
                     ),
                   ),
