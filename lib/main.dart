@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   }
                 }),
                 child: ColoredBox(
-                  color: Colors.black12,
+                  color: _getButtonColor(),
                   child: SizedBox(
                     height: 200,
                     width: 200,
@@ -132,6 +132,20 @@ class _MyHomePageState extends State<MyHomePage> {
 
       case GameState.canBeStopped:
         return 'STOP';
+    }
+  }
+
+
+  Color _getButtonColor() {
+    switch (gameState) {
+      case GameState.readyToStart:
+        return Color(0xFF40CA88);
+
+      case GameState.waiting:
+        return Color(0xFFE0982D);
+
+      case GameState.canBeStopped:
+        return Color(0xFFE02D47);
     }
   }
 
