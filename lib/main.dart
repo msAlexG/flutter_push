@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 'Test your\nreaction speed',
                 style: TextStyle(
                     fontSize: 38,
-                    fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.w800,
                     color: Colors.white),
                 textAlign: TextAlign.center,
               )),
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       milisecondText,
                       style: TextStyle(
                           fontSize: 36,
-                          fontWeight: FontWeight.normal,
+                          fontWeight: FontWeight.w500,
                           color: Colors.white),
                       textAlign: TextAlign.center,
                     ),
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         _getButtonText(),
                         style: TextStyle(
                             fontSize: 38,
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.w800,
                             color: Colors.white),
                       ),
                     ),
